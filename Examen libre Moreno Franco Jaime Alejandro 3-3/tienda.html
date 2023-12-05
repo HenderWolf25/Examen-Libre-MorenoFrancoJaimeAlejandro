@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>GameHeaven</title>
+<style>
+  @import "Diseños-Menu.css"; 
+  @import "tienda-diseño.css";
+</style>
+
+</head>
+
+<body class = "body" style = "background-color: rgb(236, 236, 236);">
+
+  <header class = "header">
+
+    <div>
+    <nav>
+
+      <div>
+
+        <a href = "index.html" class = "logo-diseño">
+          <img src = "https://cdn.discordapp.com/attachments/945873120798072882/1180388991778947152/Logo.png?ex=657d3dea&is=656ac8ea&hm=85af85ba2077fd69f75c5793e0f3e1f5187bb7c6fe7c572e32bcf9d8da624e26&" alt="GameHeaven">
+        </a>
+  
+        <input type = "text" class = "diseño-input" placeholder = "Buscar">
+  
+      </div>
+
+      <ul  class = "nav-lista">
+
+        <li class = "nav-categorias"><a href = "index.html" class = "nav-links"> Inicio </a></li>
+        <li class = "nav-categorias"> <a href = "tienda.html" class = "nav-links"> Tienda </a></li>
+        <li class = "nav-categorias"><a href = "contacto.html" class = "nav-links"> Contacto </a></li>
+        <li class = "nav-categorias dropdown"><a href = "#" class = "nav-links"> Categorías </a>
+        
+          <ul class = "dropdown-content" style = "list-style: none; margin-top: 8%;">
+
+            <li><a href="#"> Aventura </a></li>
+            <li><a href="#"> Acción </a></li>
+            <li><a href="#"> Estrategia </a></li>
+            <li><a href="#"> Multijugador </a></li>
+
+          </ul>
+        </li>
+
+        <li class = "nav-categorias"><a href = "#" class = "nav-whatsapp"> WhatsApp </a></li>
+        <li class = "nav-categorias"><a href = "#" class = "nav-facebook" style = "margin-left: 3px;"> Facebook </a></li>
+        
+        <li class = "nav-categorias dropdown">
+
+          <a href="#" class="nav-ingresar" style = "padding-bottom: 20px;">Ingresar</a>
+          <div class="dropdown-content" style = "margin-top: 10%;">
+
+            <div class="login-container">
+
+              <div class="login-header">
+                <h2>Iniciar Sesión</h2>
+              </div>
+              
+              <div class="login-form">
+
+                <div class="form-group">
+                  <label for="username">Correo</label>
+                  <input type="text" id="username" name="username" placeholder="Correo" size = "25px">
+                </div>
+
+                <div class="form-group">
+                  <label for="password">Contraseña</label>
+                  <input type="password" id="password" name="password" placeholder="Contraseña" size = "25px">
+                </div>
+
+                <div>
+                  <input type="checkbox" style = "margin-bottom: 20px;"> Recordar usuario </input>
+                </div>
+
+                <button class="login-btn">Ingresar</button>
+
+              </div>
+            </div>
+
+          </div>
+
+        </li>
+
+        <li class = "nav-categorias"><a href = "#" class = "nav-carrito" style = "padding-bottom: 20px;"> Carrito </a></li>
+        
+
+      </ul>
+
+    </nav>
+    </div>
+
+  </header>
+
+  <div class = "card-tienda">
+
+    <div class = "inner-card-1"></div>
+
+    <div class = "inner-card-2">
+
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_968670-MLU73211838141_122023-O.webp">
+        <p>Pikmin 1 + 2</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $789</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_861671-MLA44346739378_122020-O.webp">
+        <p>Pikmin 3 deluxe</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1000</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_824016-MLU72760183538_112023-O.webp">
+        <p>Pikmin 4</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1378</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_850327-MLA54712581525_032023-O.webp">
+        <p>Zelda tears of the kingdom</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1569</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_751537-MLU72650501811_112023-O.webp">
+        <p>Xenoblade chronicles 3</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $867</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_682260-MLU72836363749_112023-O.webp">
+        <p>Super mario bros wonder</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1089</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_861471-MLU72605985772_112023-O.webp">
+        <p>Super mario RPG</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $949</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_960908-MLM47818308210_102021-O.webp">
+        <p>Super mario party superstars</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1099</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_630247-MLU72535789156_102023-O.webp">
+        <p>The last of us part I remake</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1000</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_627735-MLU72538583776_112023-O.webp">
+        <p>The last of us part II</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $699</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_674999-MLU72540886414_112023-O.webp">
+        <p>Marvel spider-man Miles Morales</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1199</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_769558-MLU72525173566_102023-O.webp">
+        <p>Marvel spider-man 2</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1425</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_999556-MLA54078260253_022023-O.webp">
+        <p>Resident evil 4 remake</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1349</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+      <div class="card-producto">
+
+        <img src = "https://http2.mlstatic.com/D_NQ_NP_749474-MLA54008978829_022023-O.webp">
+        <p>God of war ragnarok</p>
+        <p style = "background-color: #333; border-radius: 6px; padding: 5px; color: white; margin-bottom: -1px;">Precio $1299</p>
+        <input type="number" min = "1" style="width: 13%;"> <button class = "boton-comprar">Comprar</button>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <div class = "card">
+
+    <img src="https://cdn.discordapp.com/attachments/945873120798072882/1181022068884643992/image.png?ex=657f8b83&is=656d1683&hm=28ea7fc9b41f6b225dfdce3d7d41b801b0d60779950795399c4dbcc84dda0aa2&">
+
+  </div>
+
+  <div class = "card-inferior"> 
+
+    <div class = "inner-card-inferior-1" style = "margin-left: 10%;">
+
+      <h3 style = "background-color: white; padding: 10px; width: 50%; border-radius: 8px;"> GameHeaven </h3>
+  
+      <a href = "#" style = "text-decoration: none;">
+        <span>Llamar <b>6673880293</b></span>
+      </a>
+      <a href = "#" style = "text-decoration: none;">
+        <span>WhatsApp</span>
+      </a>
+      <a href = "#" style = "text-decoration: none;">
+        <span>Facebook</span>
+      </a>
+      <a href = "#" style = "text-decoration: none;">
+        <span>Email</span>
+      </a>
+  
+    </div>
+
+    <div class = "inner-card-inferior-2">
+
+      <h3 style = "color: black;"> Nosotros </h3>
+
+      <a href = "#" style = "text-decoration: none;">
+        <span>Noticias </span>
+      </a>
+      <a href = "contacto.html">
+        <span>Contacto</span>
+      </a>
+  
+    </div>
+
+    <div class = "inner-card-inferior-2" style = "margin-top: 1%;">
+
+      <h3 style = "color: black;"> Soluciones </h3>
+
+      <a href = "#" style = "text-decoration: none;">
+        <span> Destacados </span>
+      </a>
+      <a href = "#" style = "text-decoration: none;">
+        <span>Nuevos</span>
+      </a>
+      <a href = "#" style = "text-decoration: none;">
+        <span>Ofertas</span>
+      </a>
+      <a href = "#" style = "text-decoration: none;">
+        <span>Outlet</span>
+      </a>
+  
+    </div>
+
+    <div class = "inner-card-inferior-2" style = "margin-top: 1%;">
+
+      <h3 style = "color: black;"> Ayuda </h3>
+
+      <a href = "#" style = "text-decoration: none;">
+        <span> Terminos </span>
+      </a>
+  
+    </div>
+
+    <div class = "inner-card-inferior-2" style = "margin-top: 1%;">
+
+      <h3 style = "color: black;"> Mi cuenta </h3>
+
+      <a href = "#" style = "text-decoration: none;">
+        <span> Boletin </span>
+      </a>
+      <a href = "#" style = "text-decoration: none;">
+        <span>Mi cuenta</span>
+      </a>
+  
+    </div>
+
+  </div>
+
+  <div> 
+
+    <footer style = "margin-left: 12%;">
+
+      <p> ¡gracias por su visita! </p>
+      <p>© Copyright 2023 GameHeaven</p>
+      <p style = "background-color: white; border-radius: 10px; width: 5%; padding: .5%;">By Jaime</p>
+
+    </footer>
+
+  </div>
+
+</body>
+
+</html>

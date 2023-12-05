@@ -1,0 +1,148 @@
+.card-tienda {
+
+    display: flex;
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  
+}
+  
+.inner-card-1 {
+  
+    border-right: 1px solid rgb(216, 216, 216);
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    flex: 1;
+  
+}
+.inner-card-1 a{
+  
+    display: block;
+    padding: 8px 10px 8px 10px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+  
+}
+.inner-card-1 a:hover{
+    background-color: #333;
+    border-radius: 6px;
+    color: white;
+    width: 50%;
+}
+  
+.inner-card-2 {
+  
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    flex: 8;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.card-producto{
+
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    transition: box-shadow 0.3s, background-color 0.3s;
+
+}
+.card-producto:hover{
+
+    box-shadow: 0px -1px 13px 4px gray;
+
+}
+.card-producto p{
+
+font-size: large;
+font-weight: bold;
+text-align: center;
+
+}
+
+.boton-comprar{
+
+    margin-left: 5%;
+    margin-top: 2px;
+    background-color: rgb(195, 127, 240);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    padding-left: 27%;
+    padding-right: 27%;
+    font-weight: bold;
+    transition: background-color 0.3s
+
+}
+.card-producto:hover button{
+    background-color: rgb(142, 64, 194);
+}
+.card-producto:hover button:hover{
+    background-color: rgb(164, 93, 211);
+}
+
+.card-inferior{
+
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  
+  }
+  .inner-card-inferior-1 {
+  
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    flex: 1;
+  
+  }
+  .inner-card-inferior-1 a{
+  
+    display: block;
+    padding: 8px 10px 8px 10px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+  
+  }
+  .inner-card-inferior-1 a:hover{
+    color: white;
+    background-color: #333;
+    width: 60%;
+    border-radius: 8px;
+  }
+  .inner-card-inferior-2 {
+  
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    flex: 1;
+    margin-top: 1%;
+  
+  }
+  .inner-card-inferior-2 a{
+  
+    display: block;
+    padding: 8px 10px 8px 10px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+  
+  }
+  .inner-card-inferior-2 a:hover{
+    color: white;
+    background-color: #333;
+    width: 40%;
+    border-radius: 8px;
+  }

@@ -1,0 +1,90 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel-item p {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    width: 5%;
+    height: 10%;
+    border-radius: 30%;
+    color: white;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+.card-producto{
+
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+  transition: box-shadow 0.3s, background-color 0.3s;
+
+}
+.card-producto:hover{
+
+  box-shadow: 0px -1px 13px 4px gray;
+
+}
+.card-producto p{
+
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+
+}
+.boton-comprar{
+
+  margin-left: 5%;
+  margin-top: 2px;
+  background-color: rgb(195, 127, 240);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px;
+  padding-left: 27%;
+  padding-right: 27%;
+  font-weight: bold;
+  transition: background-color 0.3s
+
+}
+.card-producto:hover button{
+  background-color: rgb(142, 64, 194);
+}
+.card-producto:hover button:hover{
+  background-color: rgb(164, 93, 211);
+}
